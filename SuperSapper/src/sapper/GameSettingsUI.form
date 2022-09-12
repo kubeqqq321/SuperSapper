@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="sapper.GameSettingsUI">
+  <grid id="27dc6" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="655" height="405"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="4d167" binding="difficultyPanel" layout-manager="GridLayoutManager" row-count="11" column-count="5" same-size-horizontally="false" same-size-vertically="false" hgap="10" vgap="10">
+        <margin top="5" left="5" bottom="5" right="5"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-7959923"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="118f2" class="javax.swing.JRadioButton" binding="beginnerRadioButton">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <actionCommand value="Beginner"/>
+              <background color="-7959923"/>
+              <font name="JetBrains Mono" size="18" style="1"/>
+              <foreground color="-1"/>
+              <label value="Łatwy"/>
+              <text value="Łatwy"/>
+            </properties>
+          </component>
+          <component id="107e" class="javax.swing.JRadioButton" binding="expertRadioButton">
+            <constraints>
+              <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <actionCommand value="Expert"/>
+              <background color="-7959923"/>
+              <font name="JetBrains Mono" size="18" style="1"/>
+              <foreground color="-1"/>
+              <label value="Trudny"/>
+              <text value="Trudny"/>
+            </properties>
+          </component>
+          <component id="11431" class="javax.swing.JRadioButton" binding="customRadioButton">
+            <constraints>
+              <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <actionCommand value="Custom"/>
+              <background color="-7959923"/>
+              <font name="JetBrains Mono" size="18" style="1"/>
+              <foreground color="-1"/>
+              <text value="Gra Własna"/>
+            </properties>
+          </component>
+          <component id="a6f5f" class="javax.swing.JRadioButton" binding="intermediateRadioButton">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-7959923"/>
+              <font name="JetBrains Mono" size="18" style="1"/>
+              <foreground color="-1"/>
+              <text value="Średni"/>
+            </properties>
+          </component>
+          <component id="f1a60" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="JetBrains Mono" size="16" style="1"/>
+              <foreground color="-1"/>
+              <text value="Szerokość"/>
+            </properties>
+          </component>
+          <component id="245c6" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="JetBrains Mono" size="16" style="1"/>
+              <foreground color="-1"/>
+              <text value="Wysokość"/>
+            </properties>
+          </component>
+          <component id="59418" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="JetBrains Mono" size="16" style="1"/>
+              <foreground color="-1"/>
+              <text value="Bomby"/>
+            </properties>
+          </component>
+          <component id="824f8" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="JetBrains Mono" size="16" style="0"/>
+              <foreground color="-1"/>
+              <text value="9"/>
+            </properties>
+          </component>
+          <component id="1a8b4" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="JetBrains Mono" size="16" style="0"/>
+              <foreground color="-1"/>
+              <text value="9"/>
+            </properties>
+          </component>
+          <component id="2c5f2" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="JetBrains Mono" size="16" style="0"/>
+              <foreground color="-1"/>
+              <text value="10"/>
+            </properties>
+          </component>
+          <component id="35f35" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="4" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="JetBrains Mono" size="16" style="0"/>
+              <foreground color="-1"/>
+              <text value="40"/>
+            </properties>
+          </component>
+          <component id="b34f0" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="JetBrains Mono" size="16" style="0"/>
+              <foreground color="-1"/>
+              <text value="16"/>
+            </properties>
+          </component>
+          <component id="a68e1" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="JetBrains Mono" size="16" style="0"/>
+              <foreground color="-1"/>
+              <text value="16"/>
+            </properties>
+          </component>
+          <component id="d1063" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="JetBrains Mono" size="16" style="0"/>
+              <foreground color="-1"/>
+              <text value="16"/>
+            </properties>
+          </component>
+          <component id="e1fae" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="6" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="JetBrains Mono" size="16" style="0"/>
+              <foreground color="-1"/>
+              <text value="30"/>
+            </properties>
+          </component>
+          <component id="eee9a" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="6" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="JetBrains Mono" size="16" style="0"/>
+              <foreground color="-1"/>
+              <text value="99"/>
+            </properties>
+          </component>
+          <component id="658bd" class="javax.swing.JTextField" binding="heightField">
+            <constraints>
+              <grid row="8" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+              <font name="JetBrains Mono" size="16" style="0"/>
+            </properties>
+          </component>
+          <component id="b2d33" class="javax.swing.JTextField" binding="widthField">
+            <constraints>
+              <grid row="8" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+              <font name="JetBrains Mono" size="16" style="0"/>
+            </properties>
+          </component>
+          <component id="e9d2b" class="javax.swing.JTextField" binding="minesField">
+            <constraints>
+              <grid row="8" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+              <font name="JetBrains Mono" size="16" style="0"/>
+            </properties>
+          </component>
+          <component id="6732b" class="javax.swing.JSeparator">
+            <constraints>
+              <grid row="9" column="0" row-span="1" col-span="5" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <foreground color="-1"/>
+            </properties>
+          </component>
+          <component id="7ae51" class="javax.swing.JSeparator">
+            <constraints>
+              <grid row="5" column="0" row-span="1" col-span="5" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <foreground color="-1"/>
+            </properties>
+          </component>
+          <component id="62ead" class="javax.swing.JSeparator">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="5" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <foreground color="-1"/>
+            </properties>
+          </component>
+          <component id="9b106" class="javax.swing.JSeparator">
+            <constraints>
+              <grid row="7" column="0" row-span="1" col-span="5" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <foreground color="-1"/>
+            </properties>
+          </component>
+          <component id="1fab2" class="javax.swing.JButton" binding="menuButton" default-binding="true">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-12565691"/>
+              <focusPainted value="false"/>
+              <font name="JetBrains Mono" size="20" style="1"/>
+              <foreground color="-1"/>
+              <text value="Menu"/>
+            </properties>
+          </component>
+          <component id="bb5ee" class="javax.swing.JButton" binding="startGameButton" default-binding="true">
+            <constraints>
+              <grid row="10" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-12565691"/>
+              <focusPainted value="false"/>
+              <font name="JetBrains Mono" size="20" style="1"/>
+              <foreground color="-1"/>
+              <label value="Rozpocznij"/>
+              <text value="Rozpocznij"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+  <buttonGroups>
+    <group name="difficulty">
+      <member id="107e"/>
+      <member id="107e"/>
+      <member id="11431"/>
+      <member id="a6f5f"/>
+      <member id="118f2"/>
+    </group>
+  </buttonGroups>
+</form>
